@@ -1,6 +1,7 @@
 ---
 title: "Test"
 author: "Anna Duff"
+date: "`r format(Sys.time(),  '%B %d %Y')`"
 format: html
 editor: visual
 ---
