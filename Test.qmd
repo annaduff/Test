@@ -3,7 +3,11 @@ title: "Test"
 author: "Anna Duff"
 date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
-format: html
+format: 
+  html:
+    code-fold: true
+    code-tools:
+      source: true
 editor: visual
 ---
 
