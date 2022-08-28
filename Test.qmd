@@ -1,7 +1,6 @@
 ---
 title: "Test"
 author: "Anna Duff"
-date: "`r format(Sys.time(), '%d %B %Y')`"
 format: html
 editor: visual
 ---
