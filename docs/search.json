@@ -4,6 +4,6 @@
     "href": "Test.html",
     "title": "Test",
     "section": "",
-    "text": "Just testing publishing to GitHub pages.\nAdding in another change here…\nBla bla"
+    "text": "Just testing publishing to GitHub pages.\nAdding in another change here…\nBla bla\n\n\nCode\nlibrary(ggplot2)\n\nggplot(airquality, aes(Temp, Ozone)) + \n  geom_point() + \n  geom_smooth(method = \"loess\"\n)\n\n\n\n\n\nFigure 1: Temperature and ozone level."
   }
 ]

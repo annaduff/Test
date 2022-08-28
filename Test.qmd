@@ -5,6 +5,8 @@ date: "`r Sys.time()`"
 date-format: "D MMMM YYYY"
 format: 
   html:
+    toc: true
+    number-sections: true
     code-fold: true
     code-tools:
       source: true
@@ -18,3 +20,16 @@ Just testing publishing to GitHub pages.
 Adding in another change here...
 
 Bla bla
+
+```{r}
+#| label: fig-airquality
+#| fig-cap: Temperature and ozone level.
+#| warning: false
+
+library(ggplot2)
+
+ggplot(airquality, aes(Temp, Ozone)) + 
+  geom_point() + 
+  geom_smooth(method = "loess"
+)
+```
