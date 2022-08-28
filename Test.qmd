@@ -1,6 +1,7 @@
 ---
 title: "Test"
-author: "Anna"
+author: "Anna Duff"
+date: "`r format(Sys.time(), '%d %B, %Y')`"
 format: html
 editor: visual
 ---
@@ -8,5 +9,3 @@ editor: visual
 ## Testing
 
 Just testing publishing to GitHub pages.
-
-Adding something...
